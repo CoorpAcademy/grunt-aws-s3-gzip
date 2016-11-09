@@ -27,21 +27,21 @@
     "test": "grunt"
   },
   "dependencies": {
-    "aws-sdk": "2.0.x",
-    "mime-types": "2.0.x",
-    "lodash": "2.4.x",
-    "async": "0.9.x",
+    "aws-sdk": "~2.6.15",
+    "mime-types": "~2.1.12",
+    "lodash": "~4.16.6",
+    "async": "~2.1.2",
     "progress": "1.1.x"
   },
   "devDependencies": {
-    "grunt-contrib-jshint": "~0.2.0",
-    "grunt": "~0.4.0",
-    "chai": "~1.7.2",
-    "mocha": "~1.12.1",
-    "grunt-mocha-test": "~0.10.2",
-    "grunt-contrib-copy": "~0.4.1",
-    "grunt-contrib-clean": "~0.5.0",
-    "mock-aws-s3": "0.2.3"
+    "grunt-contrib-jshint": "~1.0.0",
+    "grunt": "~1.0.1",
+    "chai": "~3.5.0",
+    "mocha": "~3.1.2",
+    "grunt-mocha-test": "~0.13.2",
+    "grunt-contrib-copy": "~1.0.0",
+    "grunt-contrib-clean": "~1.0.0",
+    "mock-aws-s3": "2.3.0"
   },
   "peerDependencies": {
     "grunt": "~0.4.0"
